@@ -26,3 +26,5 @@
   - **[XML](tiñosa.xml)**
   - **[RUTA EN APP](https://es.wikiloc.com/rutas-senderismo/subida-a-la-tinosa-desde-las-lagunillas-circular-p-n-sierras-subbeticas-16899407)**
 
+# ACTIVIDAD 3
+- **[[Preguntas formato gift](actividad3.gift)]**

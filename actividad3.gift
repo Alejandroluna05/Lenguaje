@@ -1,0 +1,17 @@
+::Pregunta1:: ¿Que es un lenguaje de marcas?{
+    =Es un conjunto de marcas y etiquetas que añaden informacion adicional al documento formando una estructura y presentacion.
+    ~Es un conjunto de reglas y sintaxis que permite a los programadores dar instrucciones a una computadora para realizar tareas específicas.}
+::Pregunta2:: ¿Que tres tipos de lenguaje de marcas hay?{
+    =De procedimiento, descriptivos y orientados a la presentación
+    ~Bajo nivel y alto nivel}
+::Pregunta3:: ¿Que significa HTML?{
+    =HyperText Markup Language
+    ~HyperText Markdown Language}
+::Pregunta4:: ¿Cual de estas es una característica de los lenguajes de marcas?{
+    =Se crean con editores de texto, usando archivos de texto plano.
+    ~Son capaces de ejecutar calculos}
+::Pregunta5:: ¿Cuales de estos son lenguajes de marcas?
+    ~%50% Java
+    ~%50% Python
+    ~%100% HTML
+    ~%100% XML
