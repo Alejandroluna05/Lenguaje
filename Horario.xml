@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horario>
+    <dia nombre="Lunes">
+        <clase>
+            <materia>IPE1</materia>
+            <hora_inicio>08:15</hora_inicio>
+            <hora_fin>09:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>IPE1</materia>
+            <hora_inicio>09:15</hora_inicio>
+            <hora_fin>10:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>Lenguaje de marcas</materia>
+            <hora_inicio>10:15</hora_inicio>
+            <hora_fin>11:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>Gestión de base de datos</materia>
+            <hora_inicio>11:45</hora_inicio>
+            <hora_fin>12:45</hora_fin>
+        </clase>
+        <clase>
+            <materia>Gestión de base de datos</materia>
+            <hora_inicio>12:45</hora_inicio>
+            <hora_fin>13:45</hora_fin>
+        </clase>
+        <clase>
+            <materia>Digitalizacion</materia>
+            <hora_inicio>13:45</hora_inicio>
+            <hora_fin>14:45</hora_fin>
+        </clase>
+    </dia>
+    
+    <dia nombre="Martes">
+        <clase>
+            <materia>Sostenibilidad</materia>
+            <hora_inicio>08:15</hora_inicio>
+            <hora_fin>09:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>IPE1</materia>
+            <hora_inicio>09:15</hora_inicio>
+            <hora_fin>10:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>Lenguaje de marcas</materia>
+            <hora_inicio>10:15</hora_inicio>
+            <hora_fin>11:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>Lenguaje de marcas</materia>
+            <hora_inicio>11:45</hora_inicio>
+            <hora_fin>12:45</hora_fin>
+        </clase>
+        <clase>
+            <materia>Redes</materia>
+            <hora_inicio>12:45</hora_inicio>
+            <hora_fin>13:45</hora_fin>
+        </clase>
+        <clase>
+            <materia>Redes</materia>
+            <hora_inicio>13:45</hora_inicio>
+            <hora_fin>14:45</hora_fin>
+        </clase>
+    </dia>
+
+    <dia nombre="Miércoles">
+        <clase>
+            <materia>ISO</materia>
+            <hora_inicio>08:15</hora_inicio>
+            <hora_fin>09:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>ISO</materia>
+            <hora_inicio>09:15</hora_inicio>
+            <hora_fin>10:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>ISO</materia>
+            <hora_inicio>10:15</hora_inicio>
+            <hora_fin>11:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>Gestión de base de datos</materia>
+            <hora_inicio>11:45</hora_inicio>
+            <hora_fin>12:45</hora_fin>
+        </clase>
+        <clase>
+            <materia>Gestión de base de datos</materia>
+            <hora_inicio>12:45</hora_inicio>
+            <hora_fin>13:45</hora_fin>
+        </clase>
+        <clase>
+            <materia>Gestión de base de datos</materia>
+            <hora_inicio>13:45</hora_inicio>
+            <hora_fin>14:45</hora_fin>
+        </clase>
+    </dia>
+
+    <dia nombre="Jueves">
+        <clase>
+            <materia>Gestión de base de datos</materia>
+            <hora_inicio>08:15</hora_inicio>
+            <hora_fin>09:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>ISO</materia>
+            <hora_inicio>09:15</hora_inicio>
+            <hora_fin>10:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>ISO</materia>
+            <hora_inicio>10:15</hora_inicio>
+            <hora_fin>11:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>ISO</materia>
+            <hora_inicio>11:45</hora_inicio>
+            <hora_fin>12:45</hora_fin>
+        </clase>
+        <clase>
+            <materia>Redes</materia>
+            <hora_inicio>12:45</hora_inicio>
+            <hora_fin>13:45</hora_fin>
+        </clase>
+        <clase>
+            <materia>Redes</materia>
+            <hora_inicio>13:45</hora_inicio>
+            <hora_fin>14:45</hora_fin>
+        </clase>
+    </dia>
+
+    <dia nombre="Viernes">
+        <clase>
+            <materia>Hardware</materia>
+            <hora_inicio>08:15</hora_inicio>
+            <hora_fin>09:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>Hardware</materia>
+            <hora_inicio>09:15</hora_inicio>
+            <hora_fin>10:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>Hardware</materia>
+            <hora_inicio>10:15</hora_inicio>
+            <hora_fin>11:15</hora_fin>
+        </clase>
+        <clase>
+            <materia>Redes</materia>
+            <hora_inicio>11:45</hora_inicio>
+            <hora_fin>12:45</hora_fin>
+        </clase>
+        <clase>
+            <materia>Redes</materia>
+            <hora_inicio>12:45</hora_inicio>
+            <hora_fin>13:45</hora_fin>
+        </clase>
+        <clase>
+            <materia>ISO</materia>
+            <hora_inicio>13:45</hora_inicio>
+            <hora_fin>14:45</hora_fin>
+        </clase>
+    </dia>
+</horario>
+
+
+
+
+
+
