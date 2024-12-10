@@ -1,0 +1,5 @@
+.horizontal-list {
+    list-style: none;
+    display: flex;
+    text-indent: 10px;
+}

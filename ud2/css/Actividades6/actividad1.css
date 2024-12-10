@@ -1,0 +1,9 @@
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px #000000, /* Sombra negra */
+                 0 0 15px #00ff00,   /* Resplandor verde */
+                 0 0 30px #00ff00;   /* Resplandor más amplio */
+}
+body {
+    background-color: grey;
+}

@@ -1,0 +1,20 @@
+body {
+    border: 10px solid;
+    border-color: red;
+    width: 418px;
+}
+div {
+    border: 10px solid;
+    width: 400px;
+    border-color: #ff7700;
+    background-color: black;
+}
+h1 {
+    margin: 10px;
+    color: #ff7700;
+}
+p {
+    margin: 10px;
+    width: 400px;
+    color: coral;
+}

@@ -1,0 +1,47 @@
+.parrafo1 {
+    border: 5px solid;
+    border-color: orange;
+    
+}
+p.p1 {
+
+    border: 1px solid;
+    border-color: black;
+    margin: auto;
+    
+    
+   
+    
+
+}
+
+.parrafo2 {
+    border: 5px solid;
+    border-color: green;
+    color: orange;
+    
+}
+.p2 {
+    border:1px solid;
+    margin: auto;
+    padding: 13px;
+    
+
+}
+
+body {
+    color: orange;
+}
+
+.parrafo3 {
+    border: 5px dotted;
+    border-color: yellow;
+    
+}
+p.p3 {
+
+    border: 1px solid;
+    border-color: black;
+    margin: auto;
+    padding: 13px;
+}

@@ -1,0 +1,19 @@
+div {
+    background-image: url('playa.jpg'); /* Asegúrate de tener la imagen 2.jpg en el mismo directorio */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Georgia, serif;
+    font-size: 7vw;
+    text-align: center;
+    border: solid;
+    height: 100vh; /* Hace que el div ocupe toda la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Color del texto para que contraste */
+  }
+  
+  .blender {
+    mix-blend-mode: difference;
+    color: yellow;
+  }

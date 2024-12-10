@@ -1,0 +1,33 @@
+table, td, th {
+    border: 2px solid black;
+}
+
+tr.l1 {
+    background-color: blue;
+}
+
+
+tr.l3 {
+    background-color: blue;
+}
+
+
+tr.l5 {
+    background-color: blue;
+}
+
+tr.l7 {
+    background-color: blue;
+}
+
+table {
+    width: 1500px;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    
+}
+.recreo {
+    text-align: center;
+    font-size: 20px;
+}
