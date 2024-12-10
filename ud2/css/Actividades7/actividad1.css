@@ -1,0 +1,13 @@
+.box {
+    font-size: 5vw; /* Tamaño de fuente relativo al ancho de la ventana */
+    padding: 10vw; /* Espaciado interno relativo al ancho de la ventana */
+    border: solid; /* Bordes sólidos */
+    background: repeating-radial-gradient(
+        circle,
+        yellow 20%, /* El primer color cubre el 20% del círculo */
+        purple 40%  /* El segundo color cubre del 20% al 40%, repitiendo */
+    );
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
