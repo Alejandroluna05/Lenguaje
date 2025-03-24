@@ -1,0 +1,12 @@
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ejercicio5.xsd">
+    <persona>
+        <nombre>Juan Pérez</nombre>
+        <dni>12345678A</dni>
+        <comentario>Cliente VIP</comentario>
+        <fecha-nacimiento>1985-06-24</fecha-nacimiento>
+        <forma-pago tipo="tarjeta">
+            <numero-tarjeta>1234567890123456</numero-tarjeta>
+        </forma-pago>
+    </persona>
+</personas>

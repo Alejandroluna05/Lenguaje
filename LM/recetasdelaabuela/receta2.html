@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las recetas de la abuela</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            background-color: #6f4e37;
+            padding: 2px 0;
+        }
+        .navbar a {
+            color: white;
+            font-weight: bold;
+        }
+        header {
+            background-color: #d4a373;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 1.8rem;
+        }
+        .container {
+            padding: 40px 20px;
+        }
+        .recipe-section {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+        .recipe-section h2 {
+            color: #6f4e37;
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .recipe-section h3 {
+            color: #6f4e37;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .recipe-section ul, .recipe-section ol {
+            text-align: left;
+            font-size: 1.1rem;
+            color: #555;
+        }
+        .recipe-section p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+        .recipe-image {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .btn-custom {
+            background-color: #6f4e37;
+            color: white;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .btn-custom:hover {
+            background-color: #5c3f2b;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Las recetas de la abuela</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href='index.html'>Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href='receta1.html'>Receta 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href='receta2.html'>Receta 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href='receta3.html'>Receta 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="recipe-section">
+            <h2>Receta 2: Paella</h2>
+            <img src="paella.jpg" alt="Paella" class="recipe-image">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>300 g de arroz</li>
+                <li>600 ml de caldo de pollo o pescado</li>
+                <li>200 g de pollo troceado</li>
+                <li>200 g de mariscos (gambas, mejillones, calamares)</li>
+                <li>1 pimiento rojo</li>
+                <li>2 tomates maduros</li>
+                <li>1 diente de ajo</li>
+                <li>100 g de guisantes</li>
+                <li>1 sobre de azafrán o colorante</li>
+                <li>Aceite de oliva, sal y pimienta al gusto</li>
+            </ul>
+            <h3>Preparación:</h3>
+            <ol>
+                <li>En una paellera, calienta el aceite de oliva y sofríe el ajo y el pimiento rojo picado.</li>
+                <li>Añade el pollo troceado y dóralo durante unos minutos.</li>
+                <li>Ralla los tomates y agrégalos a la paellera, cocinando hasta que reduzcan.</li>
+                <li>Incorpora el arroz y remueve para que se impregne del sofrito.</li>
+                <li>Añade el caldo caliente junto con el azafrán o colorante y los guisantes.</li>
+                <li>Distribuye los mariscos sobre la paella y cocina a fuego medio hasta que el arroz esté en su punto.</li>
+                <li>Deja reposar la paella durante unos minutos antes de servir.</li>
+            </ol>
+            <a href="#" class="btn-custom">¡Prueba esta receta!</a>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las recetas de la abuela</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            background-color: #6f4e37;
+            padding: 2px 0;
+        }
+        .navbar a {
+            color: white;
+            font-weight: bold;
+        }
+        header {
+            background-color: #d4a373;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 1.8rem;
+        }
+        .container {
+            padding: 40px 20px;
+        }
+        .recipe-section {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+        .recipe-section h2 {
+            color: #6f4e37;
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .recipe-section h3 {
+            color: #6f4e37;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .recipe-section ul, .recipe-section ol {
+            text-align: left;
+            font-size: 1.1rem;
+            color: #555;
+        }
+        .recipe-section p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+        .recipe-image {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .btn-custom {
+            background-color: #6f4e37;
+            color: white;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .btn-custom:hover {
+            background-color: #5c3f2b;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Las recetas de la abuela</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href='index.html'>Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href='receta1.html'>Receta 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href='receta2.html'>Receta 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href='receta3.html'>Receta 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="recipe-section">
+            <h2>Receta 3: Gazpacho</h2>
+            <img src="gazpacho.jpg" alt="Gazpacho" class="recipe-image">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>1 kg de tomates maduros</li>
+                <li>1/2 pimiento verde</li>
+                <li>1/2 pepino</li>
+                <li>1 diente de ajo</li>
+                <li>50 g de pan duro</li>
+                <li>4 cucharadas de aceite de oliva virgen extra</li>
+                <li>2 cucharadas de vinagre de vino</li>
+                <li>Sal al gusto</li>
+                <li>200 ml de agua fría</li>
+            </ul>
+            <h3>Preparación:</h3>
+            <ol>
+                <li>Lava y corta los tomates, el pimiento y el pepino en trozos pequeños.</li>
+                <li>Pela el ajo y retira el germen si lo deseas para que el sabor sea más suave.</li>
+                <li>Coloca todos los ingredientes en una batidora y tritura hasta obtener una mezcla homogénea.</li>
+                <li>Añade el pan troceado, el aceite de oliva, el vinagre y la sal.</li>
+                <li>Agrega el agua fría y sigue batiendo hasta conseguir una textura cremosa.</li>
+                <li>Cuela la mezcla si prefieres una textura más fina.</li>
+                <li>Refrigera el gazpacho durante al menos 2 horas antes de servir.</li>
+                <li>Sirve bien frío acompañado de trocitos de pepino, pimiento y pan.</li>
+            </ol>
+            <a href="#" class="btn-custom">¡Prueba esta receta!</a>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

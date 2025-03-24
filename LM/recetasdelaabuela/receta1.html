@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las recetas de la abuela</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            background-color: #6f4e37;
+            padding: 2px 0;
+        }
+        .navbar a {
+            color: white;
+            font-weight: bold;
+        }
+        header {
+            background-color: #d4a373;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 1.8rem;
+        }
+        .container {
+            padding: 40px 20px;
+        }
+        .recipe-section {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+        }
+        .recipe-section h2 {
+            color: #6f4e37;
+            font-weight: bold;
+        }
+        .recipe-section ul, .recipe-section ol {
+            text-align: left;
+        }
+        .recipe-section p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+        .recipe-image {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Las recetas de la abuela</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href='index.html'>Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href='receta1.html'>Receta 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href='receta2.html'>Receta 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href='receta3.html'>Receta 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="recipe-section">
+            <h2>Receta 1: Salmorejo</h2>
+            <img src="descarga.jpeg" alt="Salmorejo" class="recipe-image">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>1 kg de tomates maduros</li>
+                <li>200 g de pan del día anterior (preferiblemente pan blanco)</li>
+                <li>100 ml de aceite de oliva virgen extra</li>
+                <li>1 diente de ajo</li>
+                <li>Sal al gusto</li>
+                <li>1 huevo duro (para decorar)</li>
+                <li>Jamón serrano en taquitos (para decorar)</li>
+            </ul>
+            <h3>Preparación:</h3>
+            <ol>
+                <li>Lavar y triturar los tomates: Corta los tomates en trozos y tritúralos con una batidora hasta obtener un puré.</li>
+                <li>Colar el tomate: Usa un colador fino para eliminar la piel y semillas.</li>
+                <li>Añadir el pan: Corta el pan en trozos y déjalo en remojo con el tomate triturado durante 10 minutos.</li>
+                <li>Agregar ajo y sal: Añade el diente de ajo y una pizca de sal, luego tritura nuevamente.</li>
+                <li>Incorporar el aceite: Mientras sigues batiendo, agrega el aceite de oliva en hilo fino hasta obtener una textura cremosa.</li>
+                <li>Refrigerar: Deja enfriar en la nevera al menos 1 hora antes de servir.</li>
+                <li>Servir con huevo duro y jamón: Pica el huevo duro y el jamón en trocitos y agrégalo como topping antes de servir.</li>
+            </ol>
+        </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

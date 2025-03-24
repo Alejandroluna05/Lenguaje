@@ -1,0 +1,10 @@
+<personas>
+    <persona fechaNacimiento="1990-05-21">
+        <datos>
+            <nombre>Juan Pérez</nombre>
+            <apellidos>Gómez</apellidos>
+            <dni>12345678A</dni>
+        </datos>
+        <comentario>Persona de ejemplo</comentario>
+    </persona>
+</personas>

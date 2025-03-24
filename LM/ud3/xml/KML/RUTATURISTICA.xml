@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta Turística por Córdoba</name>
+    <description>Un recorrido por los principales puntos turísticos de Córdoba</description>
+    
+    <Placemark>
+      <name>Mezquita-Catedral de Córdoba</name>
+      <description>Uno de los monumentos más emblemáticos de la ciudad</description>
+      <Point>
+        <coordinates>-4.779383,37.877778,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Puente Romano</name>
+      <description>Histórico puente sobre el río Guadalquivir</description>
+      <Point>
+        <coordinates>-4.777533,37.876544,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Alcázar de los Reyes Cristianos</name>
+      <description>Fortaleza medieval con jardines espectaculares</description>
+      <Point>
+        <coordinates>-4.781111,37.877222,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Plaza de la Corredera</name>
+      <description>Plaza mayor con mucha historia y vida local</description>
+      <Point>
+        <coordinates>-4.777089,37.884156,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Patios de Córdoba</name>
+      <description>Tradicionales patios cordobeses llenos de flores</description>
+      <Point>
+        <coordinates>-4.776111,37.880833,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Medina Azahara</name>
+      <description>Ruinas de una antigua ciudad palatina</description>
+      <Point>
+        <coordinates>-4.851944,37.884444,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Gastronomía - Taberna Salinas</name>
+      <description>Disfruta de la mejor comida típica cordobesa</description>
+      <Point>
+        <coordinates>-4.780222,37.881000,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Calleja de las Flores</name>
+      <description>Una de las calles más pintorescas de Córdoba</description>
+      <Point>
+        <coordinates>-4.779500,37.878111,0</coordinates>
+      </Point>
+    </Placemark>
+    
+  </Document>
+</kml>

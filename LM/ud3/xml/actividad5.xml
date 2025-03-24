@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona SYSTEM "actividad5.dtd">
+<persona>
+<nombre>
+Alejandro
+</nombre>
+<mayor_de_edad/>
+<ciudad>
+Cordoba
+</ciudad>
+</persona>
